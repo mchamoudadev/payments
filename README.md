@@ -1,37 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Here’s the updated README with the correct `.env` keys and environment setup details:
 
-## Getting Started
+---
 
-First, run the development server:
+# Somali Local Payment System
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![License](https://img.shields.io/github/license/mchamoudadev/payments)](LICENSE)  
+[![Contributors](https://img.shields.io/github/contributors/mchamoudadev/payments)](https://github.com/mchamoudadev/payments/graphs/contributors)  
+[![Issues](https://img.shields.io/github/issues/mchamoudadev/payments)](https://github.com/mchamoudadev/payments/issues)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A robust payment system designed to integrate Somali local payment methods such as **EVC**, **Zaad**, **Sahal**, and **Premier Bank Gateway** (powered by Mastercard). This project aims to simplify online transactions across Somalia using the most widely adopted local payment solutions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Key Features
 
-## Learn More
+- **Support for Somali Local Payment Methods**: Seamless integration with EVC, Zaad, Sahal, and Premier Bank Gateway (Mastercard).
+- **High Security**: Implements secure protocols to ensure safe and encrypted transactions.
+- **Real-time Payment Processing**: Instant verification and processing of payments for quick transaction completions.
+- **Customizable Integration**: Easy API setup to integrate with e-commerce platforms, websites, and mobile apps.
+- **Detailed Documentation**: Clear and concise instructions to help developers quickly set up and use the system.
+- **Scalable Infrastructure**: Handles large transaction volumes efficiently with minimal downtime.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗️ Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/mchamoudadev/payments.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navigate into the project directory:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# payments
+   ```bash
+   cd payments
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure environment variables:
+
+   - Set up the following environment variables in your `.env` file:
+
+     ```env
+     MASTER_CARD_MERCHANT_ID=your_mastercard_merchant_id
+     MASTER_CARD_API_PASSWORD=your_mastercard_api_password
+     MERCHANT_U_ID=your_merchant_u_id
+     MERCHANT_API_USER_ID=your_merchant_api_user_id
+     MERCHANT_API_KEY=your_merchant_api_key
+     ```
+
+5. Run the development server:
+
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🌐 Supported Payment Methods
+
+- **EVC**: Mobile payment service widely used across Somalia.
+- **Zaad**: Popular mobile money platform from Telesom.
+- **Sahal**: Digital payment solution for easy transfers.
+- **Premier Bank Gateway**: Mastercard-powered payment gateway for secure transactions.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions to improve and expand this project! To contribute:
+
+1. Fork the repository.
+2. Create a new feature branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push the branch (`git push origin feature-branch`).
+5. Create a Pull Request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+## ✨ Acknowledgements
+
+- **EVC** - For providing the mobile payment platform used by millions.
+- **Zaad** - For creating a reliable mobile money service.
+- **Sahal** - For enabling easy digital transactions across the country.
+- **Premier Bank** - For powering online transactions through Mastercard.
+
+---
